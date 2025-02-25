@@ -1,0 +1,11 @@
+#!/bin/bash
+set -euo pipefail
+
+rm -rf dist
+pnpm exec tsc
+
+for f in dist/*.js; do
+	echo "== $f =="
+	pnpm exec node "$f"
+	echo
+done
