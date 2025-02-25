@@ -1,0 +1,12 @@
+{
+  "name": "ts-unsoundness",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "~5.7.2"
+  }
+}
