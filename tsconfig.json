@@ -7,6 +7,7 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": true,
     "module": "NodeNext",
     "outDir": "dist",
     "lib": ["es2022"],
