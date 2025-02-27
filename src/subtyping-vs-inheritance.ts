@@ -3,22 +3,22 @@
 import { contradiction } from "./util/index.js";
 
 interface Base {
-    f: () => string | number;
+	f: () => string | number;
 }
 interface Sub {
-    f: () => string;
+	f: () => string;
 }
 
 class A {
-    go(_: Base) {}
+	go(_: Base) {}
 }
 class B extends A {
-    override go(x: Sub) {
-        const v = x.f();
-        if (typeof v !== 'string') {
-            contradiction(v);
-        }
-    }
+	override go(x: Sub) {
+		const v = x.f();
+		if (typeof v !== "string") {
+			contradiction(v);
+		}
+	}
 }
 
 const x: Base = { f: () => 1 };
