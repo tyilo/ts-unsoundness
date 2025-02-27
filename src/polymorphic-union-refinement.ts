@@ -3,7 +3,7 @@
 import { contradiction } from "./util/index.js";
 
 function orSingleton<T>(x: T | T[]): T[] {
-	if (Array.isArray(x)) {
+	if (x instanceof Array) {
 		return x;
 	}
 	return [x];
@@ -15,6 +15,6 @@ function wrapInArray<T>(x: T): T[] {
 
 const v = wrapInArray([1, 2, 3]);
 const first = v[0];
-if (first !== undefined && !Array.isArray(first)) {
+if (first !== undefined && !(first instanceof Array)) {
 	contradiction(first);
 }

@@ -11,6 +11,6 @@
 		"module": "NodeNext",
 		"outDir": "dist",
 		"lib": [],
-		"types": ["node"]
+		"types": []
 	}
 }
