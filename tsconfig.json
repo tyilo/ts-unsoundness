@@ -10,7 +10,7 @@
 		"exactOptionalPropertyTypes": true,
 		"module": "NodeNext",
 		"outDir": "dist",
-		"lib": ["es2022"],
+		"lib": [],
 		"types": ["node"]
 	}
 }
