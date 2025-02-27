@@ -11,6 +11,8 @@
 		"module": "NodeNext",
 		"outDir": "dist",
 		"lib": [],
-		"types": []
-	}
+		"typeRoots": ["./types"],
+		"types": ["min-types"]
+	},
+	"include": ["./src/**/*.ts"]
 }

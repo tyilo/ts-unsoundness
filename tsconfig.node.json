@@ -1,7 +1,7 @@
 {
 	"extends": "./tsconfig.json",
 	"compilerOptions": {
+		"typeRoots": null,
 		"types": ["node"]
-	},
-	"exclude": ["./src/util/minimal-lib-types.ts"]
+	}
 }

@@ -1,0 +1,7 @@
+{
+	"name": "min-types",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"types": "./index.d.ts"
+}
