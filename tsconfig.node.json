@@ -1,7 +1,0 @@
-{
-	"extends": "./tsconfig.json",
-	"compilerOptions": {
-		"typeRoots": null,
-		"types": ["node"]
-	}
-}

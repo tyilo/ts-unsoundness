@@ -9,6 +9,7 @@
 		"noImplicitOverride": true,
 		"exactOptionalPropertyTypes": true,
 		"module": "NodeNext",
+		"rootDir": "src",
 		"outDir": "dist",
 		"lib": [],
 		"typeRoots": ["./types"],
