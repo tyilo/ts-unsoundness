@@ -1,3 +1,4 @@
+// biome-ignore-all lint/suspicious/useIsArray: Array.isArray does not work.
 // Based on https://counterexamples.org/polymorphic-union-refinement.html
 
 import { contradiction } from "./util/index.js";
