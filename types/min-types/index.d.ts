@@ -1,3 +1,5 @@
+// biome-ignore-all lint/suspicious/noShadowRestrictedNames: No shadowing occurs, this is the definition of the global values.
+
 export {};
 
 declare global {
@@ -14,14 +16,12 @@ declare global {
 	interface RegExp {}
 	interface String {}
 
-	// biome-ignore lint/suspicious/noShadowRestrictedNames: <explanation>
 	const Array: {
 		(arrayLength?: number): unknown[];
 		readonly prototype: unknown[];
 	};
 
 	interface Promise<T> {}
-	// biome-ignore lint/suspicious/noShadowRestrictedNames: <explanation>
 	const Promise: {
 		new <T>(executor: (resolve: (value: T) => unknown) => unknown): Promise<T>;
 	};
